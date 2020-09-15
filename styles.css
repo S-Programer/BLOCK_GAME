@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gotham Rounded, sans-serif;
+    font-weight: normal;
+    color: #0092c7;
+}
+
+body {
+    background-color: #0252ad;
+    /*#04c227*/
+}
+
+#canvas {
+    background-color: #0092c7;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+}
+
+.high-score {
+    position: absolute;
+    top: 4.5rem;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.reset {
+    cursor: pointer;
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    font-size: 30px;
+}
